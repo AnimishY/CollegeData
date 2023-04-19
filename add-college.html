@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COLLEGE DATA COLLECTION</title>
+
+    <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
+</head>
+
+<body>
+    <h1>ADD COLLEGE</h1>
+
+        
+    <form action="https://send.pageclip.co/QTDdrvqUJrs7plEFzBeobRdStLjfIvAr/add-college" class="pageclip-form"
+        method="post">
+        <!-- Replace these inputs with your own. Make sure they have a "name" attribute! -->
+
+        <label for="name">Name of Institute</label>
+        <input type="text" name="name" value="" required />
+        <br>
+
+        <label for="acronym">Acronym if any</label>
+        <input type="text" name="acronym" value="" />
+        <br>
+
+        <label for="state">State</label>
+        <input type="text" name="state" value="" required />
+        <br>
+
+        <label for="nirf">NIRF Rank</label>
+        <input type="text" name="nirf" value="" required/>
+        <caption>Enter 0 if not available, or larger rank if in case of ties</caption>
+        <br>
+
+        <label for="admissionprocess">Admission Process</label>
+        <input type="text" name="admissionprocess" value="" required />
+        
+
+
+
+        <!-- This button will have a loading spinner. Keep the inner span for best results. -->
+        <button type="submit" class="pageclip-form__submit">
+            <span>Send</span>
+        </button>
+    </form>
+
+    <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
+</body>
+
+</html>
